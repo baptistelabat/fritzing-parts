@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module moduleId="imu_8c9e51bc934f2e296952522fff271edf_1" referenceFile="generic_sip_6_300mil.fzp">
+ <version>4</version>
+ <author>Fritzing Part-o-matic</author>
+ <title>SIP - 6 pins</title>
+ <label>U</label>
+ <date>lun. juil. 6 2015</date>
+ <tags>
+  <tag>SIP</tag>
+  <tag>fritzing core</tag>
+ </tags>
+ <properties>
+  <property name="family">Generic IC</property>
+  <property name="package">SIP (Single Inline) [THT]</property>
+  <property name="pins">6</property>
+  <property name="pin spacing">300mil</property>
+  <property name="chip label">IMU 10DOF</property>
+  <property name="hole size"></property>
+  <property name="editable pin labels">false</property>
+  <property name="layer"></property>
+  <property name="part number"></property>
+  <property name="variant">variant 2</property>
+ </properties>
+ <taxonomy>part.sip.6.pins</taxonomy>
+ <description>A SIP stand-in part for whatever you want.  With 6 pins on a 300 mil single inline package (SIP) footprint.</description>
+ <views>
+  <iconView>
+   <layers image="icon/imu_8c9e51bc934f2e296952522fff271edf_1_icon.svg">
+    <layer layerId="icon"/>
+   </layers>
+  </iconView>
+  <breadboardView>
+   <layers image="breadboard/imu_8c9e51bc934f2e296952522fff271edf_1_breadboard.svg">
+    <layer layerId="breadboard"/>
+   </layers>
+  </breadboardView>
+  <schematicView>
+   <layers image="schematic/imu_8c9e51bc934f2e296952522fff271edf_1_schematic.svg">
+    <layer layerId="schematic"/>
+   </layers>
+  </schematicView>
+  <pcbView>
+   <layers image="pcb/imu_8c9e51bc934f2e296952522fff271edf_1_pcb.svg">
+    <layer layerId="silkscreen"/>
+    <layer layerId="copper0"/>
+    <layer layerId="copper1"/>
+   </layers>
+  </pcbView>
+ </views>
+ <connectors>
+  <connector type="male" id="connector0" name="INT">
+   <description>Interrupt pin</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector0pin" layer="breadboard" terminalId="connector0terminal"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector0pin" layer="schematic" terminalId="connector0terminal"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector0pin" layer="copper0"/>
+     <p svgId="connector0pin" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector1" name="SDA">
+   <description>SDA</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector1pin" layer="breadboard" terminalId="connector1terminal"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector1pin" layer="schematic" terminalId="connector1terminal"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector1pin" layer="copper0"/>
+     <p svgId="connector1pin" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector2" name="SCL">
+   <description>SCL</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector2pin" layer="breadboard" terminalId="connector2terminal"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector2pin" layer="schematic" terminalId="connector2terminal"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector2pin" layer="copper0"/>
+     <p svgId="connector2pin" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector3" name="GND">
+   <description>GND</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector3pin" layer="breadboard" terminalId="connector3terminal"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector3pin" layer="schematic" terminalId="connector3terminal"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector3pin" layer="copper0"/>
+     <p svgId="connector3pin" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector4" name="5V">
+   <description>5V</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector4pin" layer="breadboard" terminalId="connector4terminal"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector4pin" layer="schematic" terminalId="connector4terminal"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector4pin" layer="copper0"/>
+     <p svgId="connector4pin" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector type="male" id="connector5" name="3.3V">
+   <description>3.3V</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector5pin" layer="breadboard" terminalId="connector5terminal"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector5pin" layer="schematic" terminalId="connector5terminal"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector5pin" layer="copper0"/>
+     <p svgId="connector5pin" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+ </connectors>
+</module>
